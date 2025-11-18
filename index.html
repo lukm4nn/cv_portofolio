@@ -4,94 +4,178 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV - Lukman Nurhakim</title>
-    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
     <header class="hero">
         <h1>Lukman Nurhakim</h1>
         <p class="subtitle">Mobile Developer · Android · iOS · KMP</p>
-
         <div class="links">
-            <a href="mailto:yourmail@gmail.com">Email</a>
+            <a href="mailto:lukm4n.nurhakim@gmail.com">Email</a>
             <a href="https://github.com/lukm4nn" target="_blank">GitHub</a>
-            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/lukman-nurhakim-1b4130170/" target="_blank">LinkedIn</a>
         </div>
     </header>
 
     <main>
-        <!-- Summary -->
         <section>
             <h2>Profile</h2>
             <p>
-                Mobile developer berpengalaman lebih dari 4 tahun dalam Android (Java, Kotlin),
-                serta 2 tahun dalam iOS (Swift). Terlibat dalam berbagai proyek mobile, mulai dari
-                aplikasi enterprise, streaming, hingga integrasi backend modern (Ktor, Retrofit, KMP).
+                Mobile developer berpengalaman lebih dari 4 tahun dalam Android (Kotlin, Java) dan iOS (Swift), berfokus pada pengembangan aplikasi enterprise, e-commerce, mining automation, dan sistem operasional perusahaan. Menguasai arsitektur MVVM, REST API integration, dan modern mobile tools.
             </p>
         </section>
 
-        <!-- Experience -->
         <section>
             <h2>Experience</h2>
-
             <div class="card">
-                <h3>Mobile Developer — Company Name</h3>
-                <span class="date">2021 - Sekarang</span>
+                <h3>PT. 360 Teknologi Indonesia — Android Developer</h3>
+                <span class="date">Aug 2023 - Now</span>
                 <ul>
-                    <li>Mengembangkan aplikasi Android native menggunakan Kotlin.</li>
-                    <li>Integrasi streaming RTMP & DASH dengan ExoPlayer dan custom pipeline.</li>
-                    <li>Implementasi VPN WireGuard dengan GoBackend.</li>
+                    <li>Developing module untuk kebutuhan e-commerce SPI Indogrosir.</li>
+                    <li>Integrasi API dengan tim Backend (Kotlin/Java).</li>
+                    <li>Fixing bugs & maintenance aplikasi existing.</li>
+                    <li>Kolaborasi dengan UI/UX untuk implementasi design system.</li>
                 </ul>
             </div>
 
             <div class="card">
-                <h3>Android Engineer — Company Name</h3>
-                <span class="date">2019 - 2021</span>
+                <h3>PT. Fusi Solusi Transformasi — Android Developer</h3>
+                <span class="date">Okt 2022 - Agustus 2023 (extend part time Feb 2024)</span>
                 <ul>
-                    <li>Mengembangkan beberapa fitur dashboard, e-commerce, dan sistem notifikasi real-time.</li>
-                    <li>Optimasi performa list hingga 70+ item dengan RecyclerView + Glide.</li>
+                    <li>Develop module baru untuk aplikasi HSE Automation.</li>
+                    <li>Maintenance & update aplikasi di Google Play Console.</li>
+                    <li>Berkolaborasi dengan client untuk module baru.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>PT. Quantus Telematika Indonesia — Mobile Programmer</h3>
+                <span class="date">Agustus 2020 - Oktober 2022</span>
+                <ul>
+                    <li>Membangun module mobile untuk kebutuhan mining & operasional.</li>
+                    <li>Integrasi API dan fitur dashboard monitoring.</li>
                 </ul>
             </div>
         </section>
 
-        <!-- Skills -->
         <section>
             <h2>Skills</h2>
-
             <div class="chips">
-                <span>Kotlin</span><span>Java</span><span>Swift</span>
-                <span>KMP</span><span>Retrofit</span><span>Coroutines</span>
-                <span>SQLite</span><span>OpenCV</span><span>ExoPlayer</span>
-                <span>WireGuard</span>
+                <span>Kotlin</span><span>Java</span><span>Swift</span><span>Flutter</span>
+                <span>Retrofit</span><span>OkHttp</span><span>Alamofire</span>
+                <span>LiveData</span><span>RxJava</span><span>Realm</span>
+                <span>SQLite</span><span>Glide</span><span>ExoPlayer</span>
+                <span>Firebase</span><span>Socket.IO</span>
             </div>
         </section>
 
-        <!-- Projects -->
         <section>
             <h2>Projects</h2>
 
             <div class="card">
-                <h3>Live Streaming App (RTMP / DASH)</h3>
-                <p>Membuat aplikasi streaming dengan CameraX, ExoPlayer, dan server streaming pribadi.</p>
+                <h3>SIIT (2020)</h3>
+                <p><strong>Role:</strong> Mobile Frontend Developer</p>
+                <p>Display & edit laporan dari agent lapangan untuk kebutuhan perusahaan pemerintahan.</p>
+                <ul>
+                    <li>Dashboard laporan & surat masuk.</li>
+                    <li>View & edit data laporan agent.</li>
+                    <li>Idle auto-lock 5 menit.</li>
+                </ul>
+                <p><strong>Tech Stack:</strong> Kotlin, Swift, OkHttp3 Security, iOS Cert Pinning</p>
             </div>
 
             <div class="card">
-                <h3>VPN WireGuard Android App</h3>
-                <p>Aplikasi VPN custom menggunakan GoBackend + X25519 keypair generator.</p>
+                <h3>TTC Site Telkom Sigma (2020 - 2021)</h3>
+                <p><strong>Role:</strong> Mobile Frontend Developer</p>
+                <p>Aplikasi untuk maintenance server Telkomsel di berbagai provinsi Indonesia.</p>
+                <ul>
+                    <li>Get job list maintenance.</li>
+                    <li>Input job dengan foto, lokasi, tanggal, waktu.</li>
+                    <li>Form penyelesaian pekerjaan.</li>
+                </ul>
+                <p><strong>Tech Stack:</strong> Kotlin, Swift, Retrofit, Alamofire, Picasso, SDWebImage</p>
             </div>
-        </section>
 
-        <!-- Education -->
-        <section>
-            <h2>Education</h2>
-            <p>S1 Teknik Informatika — Universitas XYZ (2015 - 2019)</p>
+            <div class="card">
+                <h3>View Mining Coal (2020)</h3>
+                <p><strong>Role:</strong> Mobile Frontend Developer</p>
+                <p>Aplikasi monitoring untuk dashboard aktivitas mining perusahaan Qatalyst.</p>
+                <ul>
+                    <li>Coal mining dashboard.</li>
+                    <li>Stock & machine monitoring.</li>
+                    <li>Coal price visualization.</li>
+                </ul>
+                <p><strong>Tech Stack:</strong> Kotlin, Swift, Retrofit, Alamofire</p>
+            </div>
+
+            <div class="card">
+                <h3>Rudolf Apps (2021 - 2022)</h3>
+                <p><strong>Role:</strong> Mobile Frontend Developer</p>
+                <p>Aplikasi internal perusahaan kimia Rudolf untuk input & monitoring performance pegawai.</p>
+                <ul>
+                    <li>Input index performance + GPS detection.</li>
+                    <li>Search customer & date filter.</li>
+                    <li>Chart visualization.</li>
+                </ul>
+                <p><strong>Tech Stack:</strong> Kotlin, Retrofit, Socket.IO, Glide, Chart</p>
+            </div>
+
+            <div class="card">
+                <h3>BigAmal App (2022)</h3>
+                <p><strong>Role:</strong> Mobile Frontend Developer</p>
+                <p>Aplikasi zakat, infaq, sedekah dengan dynamic content & video interaction.</p>
+                <ul>
+                    <li>Program amal personalized.</li>
+                    <li>Payment gateway (zakat, infaq, sedekah).</li>
+                    <li>Nearby lembaga amal.</li>
+                    <li>Like, comment, share video.</li>
+                </ul>
+                <p><strong>Tech Stack:</strong> Kotlin, LiveData, Retrofit, Glide, ExoPlayer, Midtrans</p>
+            </div>
+
+            <div class="card">
+                <h3>Beats HSE Automation (2022 - 2024)</h3>
+                <p><strong>Role:</strong> Mobile Frontend Developer</p>
+                <p>Platform mining HSE & Internal Compliance PT Beraul Coal.</p>
+                <ul>
+                    <li>Dynamic form builder (text, spinner, file attachment).</li>
+                    <li>Enhancement module OAK.</li>
+                    <li>Fixing issue aplikasi remove from PlayStore.</li>
+                </ul>
+                <p><strong>Tech Stack:</strong> Java, Retrofit, RxJava, Realm, SQLite, Glide, ExoPlayer</p>
+            </div>
+
+            <div class="card">
+                <h3>Duromoto App (2023 - Now)</h3>
+                <p><strong>Role:</strong> Mobile Frontend Developer</p>
+                <p>Aplikasi internal Duromoto untuk scan & manajemen produk.</p>
+                <ul>
+                    <li>Login User / Guest.</li>
+                    <li>Scan produk via kamera.</li>
+                    <li>Aktivasi produk by scan.</li>
+                    <li>Upload keluhan + foto (klaim garansi).</li>
+                </ul>
+                <p><strong>Tech Stack:</strong> Java, Retrofit, RxJava, Lombok, ButterKnife</p>
+            </div>
+
+            <div class="card">
+                <h3>SPI — Indogrosir Stock Point (2023 - Now)</h3>
+                <p><strong>Role:</strong> Mobile Frontend Developer</p>
+                <p>Aplikasi e-commerce Indogrosir untuk pembelian produk & operational flow.</p>
+                <ul>
+                    <li>Pencarian produk.</li>
+                    <li>Favorite produk.</li>
+                    <li>Pengiriman & pembayaran.</li>
+                    <li>Scanning produk.</li>
+                </ul>
+                <p><strong>Tech Stack:</strong> Java, Firebase Notification, Glide</p>
+            </div>
         </section>
     </main>
 
     <footer>
         © 2025 · Built by Lukman Nurhakim
     </footer>
-
 </body>
 </html>
