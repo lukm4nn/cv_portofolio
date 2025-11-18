@@ -1,141 +1,154 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV & Portofolio - Lukman Nurhakim</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV & Portofolio - Lukman Nurhakim</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Lukman Nurhakim</h1>
-            <p>Mobile Developer | Android & iOS Enthusiast</p>
-            <p>Jl. Jatihandap, Jatihandap, Kec. Mandalajati, Kota Bandung, Jawa Barat 40195</p>
-            <p>Email: lukm4n.nurhakim@gmail.com | Phone: (+62) 8389-7588-701</p>
+  <header>
+    <div class="container header-container">
+      <div class="profile-photo-wrapper">
+        <img src="assets/profile.jpg" alt="Foto Profil Lukman Nurhakim" class="profile-pic" />
+      </div>
+      <div class="header-info">
+        <h1>Lukman Nurhakim</h1>
+        <p class="subtitle">Mobile Developer | Android & iOS Enthusiast</p>
+        <p>Jl. Jatihandap, Jatihandap, Kec. Mandalajati, Kota Bandung, Jawa Barat 40195</p>
+        <p>Email: <a href="mailto:lukm4n.nurhakim@gmail.com">lukm4n.nurhakim@gmail.com</a> | Phone: (+62) 8389-7588-701</p>
+        <div class="social-links">
+          <a href="#" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" target="_blank" aria-label="GitHub">GitHub</a>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
 
-    <section id="experience">
-        <div class="container">
-            <h2>Pengalaman</h2>
-            <div class="job">
-                <h3>Android Developer - PT. Fusi Solusi Transformasi</h3>
-                <p>Oktober 2022 - Sekarang | Jakarta Selatan</p>
-                <p>Mobile Programming</p>
-            </div>
-            <div class="job">
-                <h3>Mobile Programmer - PT. Quantus Telematika Indonesia</h3>
-                <p>Agustus 2020 - Oktober 2022 | Bandung</p>
-                <p>Mobile Programming</p>
-            </div>
-            <div class="job">
-                <h3>IT Support - CV. Cahaya Berkat Bersama</h3>
-                <p>September 2019 - Agustus 2020 | Bandung</p>
-                <p>Programmer + IT Support</p>
-            </div>
-            <div class="job">
-                <h3>Guru - SMK Bina Dharma 2</h3>
-                <p>Agustus 2017 - Agustus 2019 | Bandung</p>
-                <p>Guru TKJ Kelas X, XI, dan XII</p>
-            </div>
-        </div>
+  <main>
+    <section id="experience" class="section-card">
+      <h2>Pengalaman</h2>
+      <div class="section-content">
+        <article class="job-card">
+          <h3>Android Developer - PT. Fusi Solusi Transformasi</h3>
+          <p class="job-duration">Oktober 2022 - Sekarang | Jakarta Selatan</p>
+          <p>Mobile Programming</p>
+        </article>
+        <article class="job-card">
+          <h3>Mobile Programmer - PT. Quantus Telematika Indonesia</h3>
+          <p class="job-duration">Agustus 2020 - Oktober 2022 | Bandung</p>
+          <p>Mobile Programming</p>
+        </article>
+        <article class="job-card">
+          <h3>IT Support - CV. Cahaya Berkat Bersama</h3>
+          <p class="job-duration">September 2019 - Agustus 2020 | Bandung</p>
+          <p>Programmer + IT Support</p>
+        </article>
+        <article class="job-card">
+          <h3>Guru - SMK Bina Dharma 2</h3>
+          <p class="job-duration">Agustus 2017 - Agustus 2019 | Bandung</p>
+          <p>Guru TKJ Kelas X, XI, dan XII</p>
+        </article>
+      </div>
     </section>
 
-    <section id="education">
-        <div class="container">
-            <h2>Pendidikan</h2>
-            <div class="edu">
-                <h3>S1 Teknik Informatika - Universitas Kebangsaan</h3>
-                <p>September 2015 - Mei 2020 | Bandung</p>
-            </div>
-            <div class="edu">
-                <h3>SMK Al-Mukhtariyah</h3>
-                <p>Juni 2013 - Juli 2015 | Garut | Administrasi Perkantoran</p>
-            </div>
-        </div>
+    <section id="education" class="section-card">
+      <h2>Pendidikan</h2>
+      <div class="section-content">
+        <article class="education-card">
+          <h3>S1 Teknik Informatika - Universitas Kebangsaan</h3>
+          <p>September 2015 - Mei 2020 | Bandung</p>
+        </article>
+        <article class="education-card">
+          <h3>SMK Al-Mukhtariyah</h3>
+          <p>Juni 2013 - Juli 2015 | Garut | Administrasi Perkantoran</p>
+        </article>
+      </div>
     </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Keterampilan</h2>
-            <ul>
-                <li>Mobile Programming: Kotlin, Java, Swift 5, Flutter</li>
-                <li>Firebase, One Signal Push Notification</li>
-                <li>Git, VB.Net, MySQL, SQLite</li>
-                <li>PHP, Python</li>
-                <li>Agile Scrum, SDLC</li>
-            </ul>
-            <p>Bahasa: Bahasa Indonesia, Bahasa Inggris</p>
-        </div>
+    <section id="skills" class="section-card">
+      <h2>Keterampilan</h2>
+      <ul class="skills-list">
+        <li>Mobile Programming: Kotlin, Java, Swift 5, Flutter</li>
+        <li>Firebase, One Signal Push Notification</li>
+        <li>Git, VB.Net, MySQL, SQLite</li>
+        <li>PHP, Python</li>
+        <li>Agile Scrum, SDLC</li>
+      </ul>
+      <p>Bahasa: Bahasa Indonesia, Bahasa Inggris</p>
     </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Proyek Portofolio</h2>
-            <div class="project">
-                <h3>SIIT (2020)</h3>
-                <p>Role: Mobile Front End Development</p>
-                <p>Deskripsi: Aplikasi untuk menampilkan dan mengedit laporan agen di berbagai area perusahaan pemerintah.</p>
-                <p>Fitur: Dashboard, View/Edit Report, IDLE Timer.</p>
-                <p>Tech Stack: Kotlin, Swift, OkHttp3, Certificate Pinning.</p>
-                <p>Link: Private</p>
-            </div>
-            <div class="project">
-                <h3>TTC Site Telkom Sigma (April 2020 - Agustus 2020)</h3>
-                <p>Role: Mobile Front End Development</p>
-                <p>Deskripsi: Aplikasi untuk maintenance server Telkomsel di seluruh Indonesia.</p>
-                <p>Fitur: List Jobs, Input Jobs with Image, Form Database, Incident Input.</p>
-                <p>Tech Stack: Kotlin, Swift, Alamofire, Retrofit, Picasso.</p>
-                <p>Link: Private</p>
-            </div>
-            <div class="project">
-                <h3>View Mining Coal (Agustus - Oktober 2020)</h3>
-                <p>Role: Mobile Front End Development</p>
-                <p>Deskripsi: Dashboard untuk mining coal di perusahaan Qatalyst.</p>
-                <p>Fitur: View Coal Mining Data.</p>
-                <p>Tech Stack: Kotlin, Swift.</p>
-                <p>Link: Private</p>
-            </div>
-            <div class="project">
-                <h3>Mobile Apps Rudolf (Desember 2021 - April 2022)</h3>
-                <p>Role: Mobile Front End Development</p>
-                <p>Deskripsi: Aplikasi untuk Rudolf Chemical Group.</p>
-                <p>Fitur: Input Performance Index, View Performance, Search with GPS.</p>
-                <p>Tech Stack: Kotlin.</p>
-                <p>Link: <a href="https://play.google.com/store/apps/details?id=com.qti.rudolf&hl=id" target="_blank">Google Play</a></p>
-            </div>
-            <div class="project">
-                <h3>Mobile Apps BigAmal (Mei 2022 - December 2022)</h3>
-                <p>Role: Mobile Front End Development</p>
-                <p>Deskripsi: Aplikasi untuk program amal.</p>
-                <p>Fitur: View Programs, Payments, History, Search Nearby, News Video.</p>
-                <p>Tech Stack: Kotlin.</p>
-                <p>Link: <a href="https://play.google.com/store/apps/details?id=com.bigamal.app&hl=id" target="_blank">Google Play</a></p>
-            </div>
-            <div class="project">
-                <h3>Beats HSE Automation (October 2022 - Now)</h3>
-                <p>Role: Mobile Front End Development</p>
-                <p>Deskripsi: Aplikasi untuk HSE Automation.</p>
-                <p>Fitur: Dynamic Forms, Enhancement Modul OAK, Bug Fixes.</p>
-                <p>Tech Stack: Java.</p>
-                <p>Link: <a href="https://play.google.com/store/apps/details?id=com.fusi24.berau.hse&hl=id" target="_blank">Google Play</a></p>
-            </div>
-            <div class="project">
-                <h3>Duromoto APP (Maret 2023 - Now)</h3>
-                <p>Role: Mobile Front End Development</p>
-                <p>Deskripsi: Aplikasi untuk admin Duromoto untuk input produk via scan kamera.</p>
-                <p>Fitur: Login, Scan Produk, Aktivasi, Upload Keluhan.</p>
-                <p>Tech Stack: Java.</p>
-                <p>Link: -</p>
-            </div>
-        </div>
+    <section id="projects" class="section-card">
+      <h2>Proyek Portofolio</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>SIIT (2020)</h3>
+          <p><strong>Role:</strong> Mobile Front End Development</p>
+          <p>Aplikasi untuk menampilkan dan mengedit laporan agen di berbagai area perusahaan pemerintah.</p>
+          <p><strong>Fitur:</strong> Dashboard, View/Edit Report, IDLE Timer.</p>
+          <p><strong>Tech Stack:</strong> Kotlin, Swift, OkHttp3, Certificate Pinning.</p>
+          <p><strong>Link:</strong> Private</p>
+        </article>
+        <article class="project-card">
+          <h3>TTC Site Telkom Sigma (Apr 2020 - Aug 2020)</h3>
+          <p><strong>Role:</strong> Mobile Front End Development</p>
+          <p>Aplikasi untuk maintenance server Telkomsel di seluruh Indonesia.</p>
+          <p><strong>Fitur:</strong> List Jobs, Input Jobs with Image, Form Database, Incident Input.</p>
+          <p><strong>Tech Stack:</strong> Kotlin, Swift, Alamofire, Retrofit, Picasso.</p>
+          <p><strong>Link:</strong> Private</p>
+        </article>
+        <article class="project-card">
+          <h3>View Mining Coal (Aug - Oct 2020)</h3>
+          <p><strong>Role:</strong> Mobile Front End Development</p>
+          <p>Dashboard untuk mining coal di perusahaan Qatalyst.</p>
+          <p><strong>Fitur:</strong> View Coal Mining Data.</p>
+          <p><strong>Tech Stack:</strong> Kotlin, Swift.</p>
+          <p><strong>Link:</strong> Private</p>
+        </article>
+        <article class="project-card">
+          <h3>Mobile Apps Rudolf (Dec 2021 - Apr 2022)</h3>
+          <p><strong>Role:</strong> Mobile Front End Development</p>
+          <p>Aplikasi untuk Rudolf Chemical Group.</p>
+          <p><strong>Fitur:</strong> Input Performance Index, View Performance, Search with GPS.</p>
+          <p><strong>Tech Stack:</strong> Kotlin.</p>
+          <p><a href="https://play.google.com/store/apps/details?id=com.qti.rudolf&hl=id" target="_blank" rel="noopener noreferrer" class="link-btn">Google Play</a></p>
+        </article>
+        <article class="project-card">
+          <h3>Mobile Apps BigAmal (May 2022 - Dec 2022)</h3>
+          <p><strong>Role:</strong> Mobile Front End Development</p>
+          <p>Aplikasi untuk program amal.</p>
+          <p><strong>Fitur:</strong> View Programs, Payments, History, Search Nearby, News Video.</p>
+          <p><strong>Tech Stack:</strong> Kotlin.</p>
+          <p><a href="https://play.google.com/store/apps/details?id=com.bigamal.app&hl=id" target="_blank" rel="noopener noreferrer" class="link-btn">Google Play</a></p>
+        </article>
+        <article class="project-card">
+          <h3>Beats HSE Automation (Oct 2022 - Now)</h3>
+          <p><strong>Role:</strong> Mobile Front End Development</p>
+          <p>Aplikasi untuk HSE Automation.</p>
+          <p><strong>Fitur:</strong> Dynamic Forms, Enhancement Modul OAK, Bug Fixes.</p>
+          <p><strong>Tech Stack:</strong> Java.</p>
+          <p><a href="https://play.google.com/store/apps/details?id=com.fusi24.berau.hse&hl=id" target="_blank" rel="noopener noreferrer" class="link-btn">Google Play</a></p>
+        </article>
+        <article class="project-card">
+          <h3>Duromoto APP (Mar 2023 - Now)</h3>
+          <p><strong>Role:</strong> Mobile Front End Development</p>
+          <p>Aplikasi untuk admin Duromoto untuk input produk via scan kamera.</p>
+          <p><strong>Fitur:</strong> Login, Scan Produk, Aktivasi, Upload Keluhan.</p>
+          <p><strong>Tech Stack:</strong> Java.</p>
+          <p class="no-link">Link: -</p>
+        </article>
+      </div>
     </section>
+  </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Lukman Nurhakim. All rights reserved.</p>
-        </div>
-    </footer>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Lukman Nurhakim. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
